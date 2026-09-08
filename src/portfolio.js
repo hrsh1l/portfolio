@@ -169,6 +169,12 @@ const workExperiences = {
       descBullets: [
         "Architected an event-driven JavaScript runtime across 5 modules, coordinating real-time animations and face-tracked rendering in a production system",
         "Integrated the OpenAI API with structured JSON prompting to drive real-time, personalised LLM-generated content"
+      ],
+      footerLink: [
+        {
+          name: "Try the AR Lens",
+          url: "https://www.snapchat.com/unlock/?type=SNAPCODE&uuid=6d745cabef1f4a1fa41034d5bbd43db5&metadata=01"
+        }
       ]
     },
     {
@@ -203,7 +209,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -214,7 +220,19 @@ const bigProjects = {
   subtitle: "SOME THINGS I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/trafficSignalLogo.png"),
+      image: require("./assets/images/lobEngineScreenshot.png"),
+      projectName: "Limit Order Book Matching Engine",
+      projectDesc:
+        "Price-time priority limit order book matching engine with a live market simulator generating synthetic order flow, real-time order book depth visualisation, time & sales tape, and an event log tracking fills, triggers, and acknowledgements.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/hrsh1l"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/trafficSignalScreenshot.jpg"),
       projectName: "Traffic Signal Optimisation Pipeline",
       projectDesc:
         "Python pipeline using YOLOv8 and ByteTrack to extract per-second vehicle arrival rates from intersection footage, validated against a Poisson distribution and optimised via particle swarm optimisation, with 500-iteration Monte Carlo simulations to model clearance-time uncertainty.",
@@ -226,7 +244,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/stayrLogo.png"),
+      image: require("./assets/images/stayrScreenshot.png"),
       projectName: "StayR: Full-Stack Property Rental Platform",
       projectDesc:
         "Full-stack rental platform (Node.js/Express REST API + JS/Bootstrap front-end) supporting end-to-end property search, listing management, and a bids/counter-offers negotiation flow.",
