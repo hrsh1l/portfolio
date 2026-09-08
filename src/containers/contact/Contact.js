@@ -1,10 +1,8 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
+import {contactInfo, socialMediaLinks} from "../../portfolio";
 import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
@@ -49,18 +47,29 @@ export default function Contact() {
               </a>
               <br />
               <br />
+              {socialMediaLinks.linkedin && (
+                <>
+                  <a
+                    className="contact-detail"
+                    href={socialMediaLinks.linkedin}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LinkedIn
+                  </a>
+                  <br />
+                  <br />
+                </>
+              )}
               <SocialMedia />
             </div>
           </div>
           <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
+            <img
+              className="contact-profile-photo"
+              alt="Harshil Patel"
+              src={require("../../assets/images/profilePhoto.jpg")}
+            ></img>
           </div>
         </div>
       </div>
