@@ -165,10 +165,10 @@ const workExperiences = {
       company: "Snapchat",
       companylogo: require("./assets/images/snapchatLogo.png"),
       date: "July 2026 – August 2026",
-      desc: "Owned end-to-end development of an AR Horoscope Lens from prototype to production, shipping a customer-facing feature that reached 50,000+ views.",
+      desc: "Participated in Snapchat's Lens Lab, where I created an AR Horoscope Lens from the ground up — taking it from a rough prototype all the way to a shipped feature that's racked up over 50,000 views.",
       descBullets: [
-        "Architected an event-driven JavaScript runtime across 5 modules, coordinating real-time animations and face-tracked rendering in a production system",
-        "Integrated the OpenAI API with structured JSON prompting to drive real-time, personalised LLM-generated content"
+        "Architected an event-driven JavaScript runtime spanning five modules to keep real-time animations and face-tracked rendering running smoothly in production",
+        "Integrated the OpenAI API with structured JSON prompting so the Lens could generate personalised horoscope content on the fly"
       ],
       footerLink: [
         {
@@ -182,25 +182,26 @@ const workExperiences = {
       company: "Department of Engineering, Durham University",
       companylogo: require("./assets/images/durhamLogo.png"),
       date: "June 2026 – August 2026",
-      desc: "Engineered a Python/Pandas ETL pipeline unifying 10+ datasets into a single GDPR-compliant data store, with automated data quality gates and end-to-end lineage logging.",
+      desc: "I built a Python/Pandas ETL pipeline that pulled together 10+ datasets into a single GDPR-compliant data store, adding automated quality gates and end-to-end lineage logging along the way.",
       descBullets: [
-        "Identified and corrected two systematic data quality faults in the source datasets, affecting 1,300+ student records and 300 schools",
-        "Designed a rules-based eligibility model spanning 11 research questions, translating complex admissions policy into an actionable, documented data model"
+        "Caught two systematic data quality faults that were quietly affecting over 1,300 student records across 300 schools, and fixed them",
+        "Designed a rules-based eligibility model covering 11 research questions, translating dense admissions policy into a clear, documented data model the team could actually use",
+        "Built learning resources for current undergraduate Engineering students to use"
       ]
     },
     {
-      role: "Spring Week – Technology Case Study",
+      role: "Spring Week",
       company: "Expedia Group",
       companylogo: require("./assets/images/expediaLogo.png"),
       date: "July 2026",
-      desc: "Proposed and presented a real-time delayed-flight dashboard with supporting data pipeline architecture to a panel of Expedia engineers, placing 2nd place."
+      desc: "I put together a real-time delayed-flight dashboard, backed by a data pipeline architecture I designed myself, and pitched the concept to a panel of Expedia engineers — placing 2nd in the cohort."
     },
     {
       role: "Spring Week",
       company: "Barclays",
       companylogo: require("./assets/images/barclaysLogo.png"),
       date: "April 2026",
-      desc: "Analysed fintech infrastructure and digital systems architecture through engineering workshops, applying structured problem-solving to real-world technology challenges in a competitive cohort setting."
+      desc: "I participated in Barclays' Technology Discovery Programme, digging into fintech infrastructure and digital systems architecture through hands-on engineering workshops, and applied structured problem-solving to real technology challenges in a competitive group setting."
     }
   ]
 };
